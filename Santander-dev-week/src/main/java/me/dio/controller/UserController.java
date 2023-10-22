@@ -19,6 +19,9 @@ public class UserController {
         this.userService = userService;
     }
 
+    public void welcome(){
+        System.out.println("Olá");
+    }
     @GetMapping("/{id}")
     public ResponseEntity<User> findById(@PathVariable Long id) {
         var user = userService.findById(id);
