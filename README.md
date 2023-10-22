@@ -1,6 +1,6 @@
 # Santander-dev-week
 
-# Diagrama de classe
+# Diagrama de classes
 ```mermaid
 classDiagram
   class User {
